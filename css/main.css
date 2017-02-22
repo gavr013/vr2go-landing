@@ -124,7 +124,7 @@ img {
 	margin: 0 auto;
 	font-size: 1em;
 
-    background-color: rgba(40,71,74,0.5);
+    background-color: rgba(40,71,74,0.75);
     border: none;
     color: #83c9c5;
     padding: .7em .5em;
@@ -183,20 +183,20 @@ img {
 
 
 @media only screen and (max-width: 768px) {
-	.data-container {
-		width: 90%;
-		margin: 1em auto;
-	}
 
 	body {
 		font-size: 5vw;
 	}
+
+	.data-container {
+		width: 90%;
+		margin: 1em auto;
+	}
 	
 	.contacts {
-		margin-top: 2.2em;
+		margin-top: 2em;
 		font-size: 1.35em;
 	}
-
 }
 
 @media only print {
