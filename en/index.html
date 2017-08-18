@@ -1,107 +1,588 @@
-﻿<!doctype html>
-<html class="no-js" lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>VR2GO Production Studio</title>
-        <meta name="description" content="Our experience in game development lets us make truly exciting games for advertising. We make use of the newest technology available, like video mapping and augmented reality, to make your advertisement case original and spectacular.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-		
-		<!-- Twitter Card data -->
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:title" content="VR2GO Production Studio">
-		<meta name="twitter:description" content="Our experience in game development lets us make truly exciting games for advertising. We make use of the newest technology available, like video mapping and augmented reality, to make your advertisement case original and spectacular.">
+<head>
 
-		<!-- Twitter Summary card images must be at least 120x120px -->
-		<meta name="twitter:image" content="http://vr2go.org/Icon_558x270.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="VR production studio for your business needs">
+    <meta name="author" content="VR2GO Production Studio">
 
-		<!-- Open Graph data -->
-		<meta property="og:title" content="VR2GO Production Studio" />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://vr2go.org/" />
-		<meta property="og:image" content="http://vr2go.org/Icon_558x270.png" />
-		<meta property="og:description" content="Our experience in game development lets us make truly exciting games for advertising. We make use of the newest technology available, like video mapping and augmented reality, to make your advertisement case original and spectacular." /> 
-		<meta property="og:site_name" content="VR2GO" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-		<script type="application/ld+json">
-		{
-		  "@context": "http://schema.org",
-		  "@type": "Organization",
-		  "name": "VR2GO",
-		  "url": "http://vr2go.org",
-		  "email": "info@vr2go.org",
-		  "logo": "http://vr2go.org/apple-touch-icon.png",
-		  "telephone": "+7 (916) 191 9561",
-		  "address": {
-			"@type": "PostalAddress",
-			"addressLocality": "Moscow, Russia",
-			"streetAddress": "ul. Obraztsova, 7"
-		  }
-		}
-		</script>
-		
-		<link href="https://fonts.googleapis.com/css?family=Oswald&amp;subset=cyrillic" rel="stylesheet">
-        <link rel="stylesheet" href="../css/normalize.css">
-        <link rel="stylesheet" href="../css/main.css">
-        <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <title>VR2GO — VR Production Studio</title>
 
-        <img class="background-head" src="../img/Background_Image_Head1.png" style="position: fixed; right: 0px; bottom: 0px; height:100%; width:auto" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="VR2GO Production Studio">
+    <meta name="twitter:description" content="Наши креативные решения, с использованием новейших технологий виртуальной и дополненной реальности, сделают Ваш кейс оригинальным и зрелищным.">
 
-        <!-- Add your site or application content here -->
-        <div class="data-container">
-            <div class="logo">
-                <img src="../img/SiteTitle.png" alt="VR2GO logo"/>
-                <span class="hidden">VR2Go Production Studio</span>
-            </div>
-            <div class="data-item sr-only">
-                <a href="../files/VR2GO_EN.pdf" class="button-big">Download portfolio</a>
-            </div>
-            <div class="data-item language sr-only">
-			    <div>
-				    <a href="/"><i class="flag-icon flag-icon-ru"></i></a>
-				    <a href="/en"><i class="flag-icon flag-icon-gb"></i></a>
-			    </div>
-            </div>
-            <div class="data-item contacts vcard">
-                <h2>CONTACT</h2>
-                <span class="hidden fn org">VR2GO</span>
-                <a href="mailto:info@vr2go.org" class="email no-wrap space">info@vr2go.org</a><a href="tel:+79161919561" class="tel no-wrap">+7 (916) 191-95-61</a>
-                
-                <a href="https://goo.gl/maps/ZSHgUySnKyk" target="_blank" class="adr">
-                    <span class="street-address no-wrap">ul. Obraztsova, 7</span>,
-                    <span class="locality">Moscow</span>,
-                    <span class="country-name">Russia</span>
+    <!-- Twitter Summary card images must be at least 120x120px -->
+    <meta name="twitter:image" content="http://vr2go.org/Icon_558x270.png">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="VR2GO Production Studio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://vr2go.org/" />
+    <meta property="og:image" content="http://vr2go.org/Icon_558x270.png" />
+    <meta property="og:description" content="Наши креативные решения, с использованием новейших технологий виртуальной и дополненной реальности, сделают Ваш кейс оригинальным и зрелищным."
+    />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+    <!-- Gallery stylesheet -->
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- trace:build/index.html -->
+
+    <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    VR2GO
                 </a>
             </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="../index.html">Russian</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+    </nav>
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="../js/plugins.js"></script>
-        <script src="../js/main.js"></script>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8 col-xs-offset-2 col-lg-8 col-lg-offset-0">
+                        <h1 class="brand-heading">
+                            <img class="img-responsive" src="img/vr2go-logo.png" alt="VR2GO VR production studio" />
+                        </h1>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-        <!-- Yandex.Metrika counter -->
-        <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter43150109 = new Ya.Metrika({ id:43150109, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/43150109" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-        <!-- /Yandex.Metrika counter -->
-        <!-- Google Analytics counter -->
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2>About us</h2>
+                <p>Virtual Reality is the best invention of humanity since smartphones.</p>
+                <p>We create virtual worlds with full immersion for your clients.</p>
+                <p>Our experience in game development lets us make truly exciting games for advertising. We make use of the
+                    newest technology available, like video mapping and augmented reality, to make you advertisement case
+                    original and spectacular.</p>
+                <p>Our partners are some of the most talented marketing agencies, including <a href="http://great.ru/" target="_blank">GREAT.RU</a>,
+                    <a href="http://prt.ru/" target="_blank">PRT.RU</a>, <a href="http://action.ru/" target="_blank">ACTION.RU</a>,
+                    <a href="http://www.ideagrande.com/" target="_blank">Idea Grande</a> and also <a href="http://vrtech.global/"
+                        target="_blank">VRTech</a> fund.</p>
 
-          ga('create', 'UA-92841791-1', 'auto');
-          ga('send', 'pageview');
+            </div>
+        </div>
+    </section>
 
-        </script>
-        <!-- /Google Analytics counter -->
-    </body>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+
+
+        <section id="portfolio_intro" class="slide-section">
+            <div class="container slide-content">
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1 text-left">
+                        <h2 class="text-center">Portfolio</h2>
+                        <p>
+                            <mark>End to end virtual reality development.</mark> From concepting your VR performance to distribution
+                            and execution. We deliver best quality VR content in surprisingly good time intrevals for any
+                            kind of project.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-4">
+                                <img src="img/icons8-presentation_filled.png" class="img-responsive center-block" />
+                                <h4 class="text-center">VR PRESENTATION<br />
+                                    <small class="text-muted">Surprise your audience</small>
+                                </h4>
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                <img src="img/icons8-tear_off_calendar.png" class="img-responsive center-block" />
+                                <h4 class="text-center">VR EVENT<br />
+                                    <small class="text-muted">Involve and amuse</small>
+                                </h4>
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                <img src="img/icons8-shopping_cart_loaded.png" class="img-responsive center-block" />
+                                <h4 class="text-center">VR MARKETING<br />
+                                    <small class="text-muted">Increase Sales</small>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide Three -->
+        <section id="slide3" class="slide-section">
+            <div class="container slide-content">
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1 text-left">
+                        <h2 class="text-center">VR presentation «Taiwan Machine Tools»</h2>
+                        <h3>Objective</h3>
+                        <p>Make the most effective presentation for Taiwan Chamber of Commerce on the Metalloobrabotka 2017
+                            international Exhibition dedicated to Taiwaneese Tools Manufacturing giants.</p>
+                        <h3>Idea</h3>
+                        <p>Conduct a presentation in VR! Digitize the host, add interactive inserts, video addresses of company
+                            representatives and interaction between visitors, as well as translate the presentation into
+                            several languages.</p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-1 text-left">
+                        <h3>Result</h3>
+                        <ul>
+                            <li>5 days on show during exhibition
+                                <ul>
+                                    <li>More than 500 participants</li>
+                                </ul>
+                            </li>
+                            <li>Total of 35 VR headsets</li>
+                            <li>More than 10 companies themselves told about their products</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-5">
+                        <div class="row slide-gallery row-no-padding">
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Taiwan1.jpeg" title="Taiwan1">
+                                    <img class="" src="img/photos/thumbnails/Taiwan1.jpeg" alt="Taiwan1">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Taiwan2.jpeg" title="Taiwan2">
+                                    <img class="" src="img/photos/thumbnails/Taiwan2.jpeg" alt="Taiwan2">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Taiwan3.jpeg" title="Taiwan3">
+                                    <img class="" src="img/photos/thumbnails/Taiwan3.jpeg" alt="Taiwan3">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Taiwan4.jpeg" title="Taiwan4">
+                                    <img class="" src="img/photos/thumbnails/Taiwan4.jpeg" alt="Taiwan4">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Taiwan5.jpeg" title="Taiwan5">
+                                    <img class="" src="img/photos/thumbnails/Taiwan5.jpeg" alt="Taiwan5">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Taiwan6.jpeg" title="Taiwan6">
+                                    <img class="" src="img/photos/thumbnails/Taiwan6.jpeg" alt="Taiwan6">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Taiwan7.jpeg" title="Taiwan7">
+                                    <img class="" src="img/photos/thumbnails/Taiwan7.jpeg" alt="Taiwan7">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Taiwan8.jpeg" title="Taiwan8">
+                                    <img class="" src="img/photos/thumbnails/Taiwan8.jpeg" alt="Taiwan8">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Taiwan9.jpeg" title="Taiwan9">
+                                    <img class="" src="img/photos/thumbnails/Taiwan9.jpeg" alt="Taiwan9">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Taiwan10.jpeg" title="Taiwan10">
+                                    <img class="" src="img/photos/thumbnails/Taiwan10.jpeg" alt="Taiwan10">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Taiwan11.jpeg" title="Taiwan11">
+                                    <img class="" src="img/photos/thumbnails/Taiwan11.jpeg" alt="Taiwan11">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1">
+                        <br>
+                        <div class="video-container embed-responsive embed-responsive-16by9">
+                            <iframe src="https://www.youtube.com/embed/FQIGnaOwlVI?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Slide One -->
+        <section id="slide1" class="slide-section">
+            <div class="container slide-content">
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1 text-left">
+                        <h2 class="text-center">VR GAME FOR «BOSCH»</h2>
+                        <p>Project is made in partnership with <a href="http://vrtech.global/" target="_blank">VRTech</a>.</p>
+                        <h3>Objective</h3>
+                        <p>Showcase the most advanced models of BOSCH vacuum cleaners to visitors of the shopping mall and highlight
+                            their competitive advantages.</p>
+                        <h3>Idea</h3>
+                        <p>Turn the visitor of the promo stand into a special agent, a member of a secret organization to combat
+                            dangerous dirt monsters in houses of unsuspecting citizens. In the game he will be armed with
+                            a real vacuum cleaner BOSCH Zoo Pro Animal and will do his best to remove dirt spots and catch
+                            funny monsters, gaining reward points for it.</p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-1 text-left">
+                        <h3>Result</h3>
+                        <ul>
+                            <li>3 private events
+                                <ul>
+                                    <li>150 VIP players</li>
+                                </ul>
+                            </li>
+                            <li>4 days in a shopping mall
+                                <ul>
+                                    <li>800 players</li>
+                                </ul>
+                            </li>
+                            <li>14 gift vacuum cleaners</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-5">
+                        <div class="row slide-gallery row-no-padding">
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch2.jpeg" title="Bosch2">
+                                    <img class="" src="img/photos/thumbnails/Bosch2.jpeg" alt="Bosch2">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch3.jpeg" title="Bosch3">
+                                    <img class="" src="img/photos/thumbnails/Bosch3.jpeg" alt="Bosch3">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch4.jpeg" title="Bosch4">
+                                    <img class="" src="img/photos/thumbnails/Bosch4.jpeg" alt="Bosch4">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch5.jpeg" title="Bosch5">
+                                    <img class="" src="img/photos/thumbnails/Bosch5.jpeg" alt="Bosch5">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch6.jpeg" title="Bosch6">
+                                    <img class="" src="img/photos/thumbnails/Bosch6.jpeg" alt="Bosch6">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch7.jpeg" title="Bosch7">
+                                    <img class="" src="img/photos/thumbnails/Bosch7.jpeg" alt="Bosch7">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch8.jpeg" title="Bosch8">
+                                    <img class="" src="img/photos/thumbnails/Bosch8.jpeg" alt="Bosch8">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch9.jpeg" title="Bosch9">
+                                    <img class="" src="img/photos/thumbnails/Bosch9.jpeg" alt="Bosch9">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch10.jpeg" title="Bosch10">
+                                    <img class="" src="img/photos/thumbnails/Bosch10.jpeg" alt="Bosch10">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch11.jpeg" title="Bosch11">
+                                    <img class="" src="img/photos/thumbnails/Bosch11.jpeg" alt="Bosch11">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch12.jpeg" title="Bosch12">
+                                    <img class="" src="img/photos/thumbnails/Bosch12.jpeg" alt="Bosch12">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch13.jpeg" title="Bosch13">
+                                    <img class="" src="img/photos/thumbnails/Bosch13.jpeg" alt="Bosch13">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch14.jpeg" title="Bosch14">
+                                    <img class="" src="img/photos/thumbnails/Bosch14.jpeg" alt="Bosch14">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch15.jpeg" title="Bosch15">
+                                    <img class="" src="img/photos/thumbnails/Bosch15.jpeg" alt="Bosch15">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch16.jpeg" title="Bosch16">
+                                    <img class="" src="img/photos/thumbnails/Bosch16.jpeg" alt="Bosch16">
+                                </a>
+                            </div>
+                            <div class="col-xs-2 col-md-2 col-lg-3">
+                                <a href="img/photos/Bosch17.jpeg" title="Bosch17">
+                                    <img class="" src="img/photos/thumbnails/Bosch17.jpeg" alt="Bosch17">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1">
+                        <br>
+                        <div class="video-container embed-responsive embed-responsive-16by9">
+                            <iframe src="https://www.youtube.com/embed/gTE7GOUkVzA?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Slide Two -->
+        <section id="slide2" class="slide-section">
+            <div class="container slide-content">
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1 text-left">
+                        <h2 class="text-center">VR GAME FOR DRINK MANUFACTURER «OCHAKOVO»</h2>
+                        <h3>Objective</h3>
+                        <p>Create virtual reality attraction for “Kalamansiada” advertising campaign, combining digital and
+                            sport.
+                        </p>
+                        <h3>Idea</h3>
+                        <p>Virtual stadium with three mini games of choice&colon; boxing, slingshot and swordplay with katanas.
+                            Each drink gives you superpower.</p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-1 text-left">
+                        <h3>Result</h3>
+                        <ul>
+                            <li>21 day in Gorky Park
+                                <ul>
+                                    <li>3159 players</li>
+                                </ul>
+                            </li>
+                            <li>Youngest player
+                                <ul>
+                                    <li>5 years old</li>
+                                </ul>
+                            </li>
+                            <li>Oldest
+                                <ul>
+                                    <li>72 years old</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-5">
+                        <div class="row slide-gallery row-no-padding">
+                            <div class="col-xs-3 col-md-6 col-lg-6">
+                                <a href="img/photos/Kalamansi1.jpg" title="Kalamansi1.jpg">
+                                    <img class="" src="img/photos/thumbnails/Kalamansi1.jpg" alt="Kalamansi1">
+                                </a>
+                            </div>
+                            <div class="col-xs-3 col-md-6 col-lg-6">
+                                <a href="img/photos/Kalamansi2.jpg" title="Kalamansi2.jpg">
+                                    <img class="" src="img/photos/thumbnails/Kalamansi2.jpg" alt="Kalamansi2">
+                                </a>
+                            </div>
+                            <div class="col-xs-3 col-md-6 col-lg-6">
+                                <a href="img/photos/Kalamansi3.jpg" title="Kalamansi3.jpg">
+                                    <img class="" src="img/photos/thumbnails/Kalamansi3.jpg" alt="Kalamansi3">
+                                </a>
+                            </div>
+                            <div class="col-xs-3 col-md-6 col-lg-6">
+                                <a href="img/photos/Kalamansi4.jpg" title="Kalamansi4.jpg">
+                                    <img class="" src="img/photos/thumbnails/Kalamansi4.jpg" alt="Kalamansi4">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-lg-10 col-lg-offset-1">
+                        <br>
+                        <div class="video-container embed-responsive embed-responsive-16by9">
+                            <iframe src="https://www.youtube.com/embed/SfCn2aO1Kvc?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact us</h2>
+                <p><a href="mailto:info@vr2go.org">info@vr2go.org</a></p>
+                <p><a href="tel:+79161919561">+7 (916) 191-95-61</a></p>
+                <p><a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D1%86%D0%BE%D0%B2%D0%B0,+7,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+127055/@55.7867216,37.6056647,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54a053e0901e1:0x655c29e16ca6a8fa!8m2!3d55.7867216!4d37.6078534"
+                        target="_blank">Obraztsova Street 7, Moscow, Russia</a></p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://vk.com/vr2go" class="btn btn-default btn-lg"><i class="fa fa-vk fa-fw"></i> <span class="network-name">VK</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/groups/vr2go/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <!--<div id="map"></div>-->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; VR2GO 2017</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>-->
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
+
+    <!-- Gallery Script -->
+    <script src="js/blueimp-gallery.min.js"></script>
+    <script>
+        var galleries = document.getElementsByClassName('slide-gallery');
+        for (var i = 0; i < galleries.length; i++) {
+            var gallery = galleries[i];
+            gallery.onclick = function (event) {
+                event = event || window.event;
+                var target = event.target || event.srcElement,
+                    link = target.src ? target.parentNode : target,
+                    options = { index: link, event: event },
+                    links = this.getElementsByTagName('a');
+                blueimp.Gallery(links, options);
+            };
+        }
+    </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) { (w[c] = w[c] || []).push(function () { try { w.yaCounter43150109 = new Ya.Metrika({ id: 43150109, clickmap: true, trackLinks: true, accurateTrackBounce: true }); } catch (e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/43150109" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+    <!-- Google Analytics counter -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-92841791-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- /Google Analytics counter -->
+</body>
+
 </html>
