@@ -1,0 +1,93 @@
+{
+    "default": {
+        "firstScene": "outside",
+        "sceneFadeDuration": 1000,
+        "mouseZoom": false
+    },
+    "scenes": {
+        "outside": {
+            "autoLoad": true,
+            "panorama": "https://i.imgur.com/Q4Z8605.jpg",
+            "autoRotate": -0.8,
+            "autoRotateInactivityDelay": 8,
+            "fallback": "http://pnr.ma/eyMikZ",
+            "orientationOnByDefault": false,
+            "pitch": 18,
+            "yaw": -15,
+            "autoRotateStopDelay": 32,
+            "hfov": 105,
+            "hotSpots": [
+                {
+                    "pitch": -3,
+                    "yaw": -8,
+                    "type": "scene",
+                    "text": "Get inside",
+                    "sceneId": "inside"
+                },
+                {
+                    "pitch": -3,
+                    "yaw": 157,
+                    "type": "scene",
+                    "text": "Go",
+                    "sceneId": "far"
+                }
+            ]
+        },
+        "inside": {
+            "autoLoad": true,
+            "panorama": "https://i.imgur.com/6PWxj1C.jpg",
+            "autoRotate": -1.2,
+            "autoRotateInactivityDelay": 8,
+            "fallback": "http://pnr.ma/eyMikZ",
+            "orientationOnByDefault": false,
+            "pitch": 18,
+            "yaw": -15,
+            "autoRotateStopDelay": 32,
+            "hfov": 120,
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": -6,
+                    "type": "scene",
+                    "text": "Get outside",
+                    "sceneId": "outside"
+                },
+                {
+                    "pitch": -10,
+                    "yaw": -26,
+                    "type": "scene",
+                    "text": "Walk away",
+                    "sceneId": "far"
+                }
+            ]
+        },
+        "far": {
+            "autoLoad": true,
+            "panorama": "https://i.imgur.com/jYHCiOu.jpg",
+            "autoRotate": -0.8,
+            "autoRotateInactivityDelay": 8,
+            "fallback": "http://pnr.ma/eyMikZ",
+            "orientationOnByDefault": false,
+            "pitch": -1,
+            "yaw": 112,
+            "autoRotateStopDelay": 32,
+            "hfov": 105,
+            "hotSpots": [
+                {
+                    "pitch": -1,
+                    "yaw": 70,
+                    "type": "scene",
+                    "text": "Go",
+                    "sceneId": "outside"
+                },
+                {
+                    "pitch": 2,
+                    "yaw": 78,
+                    "type": "scene",
+                    "text": "Get inside",
+                    "sceneId": "inside"
+                }
+            ]
+        }
+    }
+}
