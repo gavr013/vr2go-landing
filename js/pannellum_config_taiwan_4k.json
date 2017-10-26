@@ -1,0 +1,72 @@
+{
+    "default": {
+        "firstScene": "first",
+        "sceneFadeDuration": 1000,
+        "mouseZoom": false
+    },
+    "scenes": {
+        "first": {
+            "autoLoad": true,
+            "panorama": "https://i.imgur.com/Eb48MX3.jpg",
+            "autoRotate": -2,
+            "autoRotateInactivityDelay": 8,
+            "fallback": "https://i.imgur.com/Eb48MX3.jpg",
+            "orientationOnByDefault": false,
+            "pitch": -12,
+            "yaw": -14,
+            "autoRotateStopDelay": 32,
+            "hfov": 105,
+            "hotSpots": [
+                {
+                    "pitch": -31,
+                    "yaw": -3,
+                    "type": "scene",
+                    "text": "Next scene",
+                    "sceneId": "second"
+                }
+            ]
+        },
+        "second": {
+            "autoLoad": true,
+            "panorama": "https://i.imgur.com/FZi2Dsc.jpg",
+            "autoRotate": -2,
+            "autoRotateInactivityDelay": 8,
+            "fallback": "https://i.imgur.com/FZi2Dsc.jpg",
+            "orientationOnByDefault": false,
+            "pitch": -12,
+            "yaw": -10,
+            "autoRotateStopDelay": 32,
+            "hfov": 105,
+            "hotSpots": [
+                {
+                    "pitch": -31,
+                    "yaw": 0,
+                    "type": "scene",
+                    "text": "Next scene",
+                    "sceneId": "third"
+                }
+            ]
+        },
+        "third": {
+            "autoLoad": true,
+            "panorama": "https://i.imgur.com/Mk4CCpB.jpg",
+            "autoRotate": -2,
+            "autoRotateInactivityDelay": 8,
+            "fallback": "https://i.imgur.com/Mk4CCpB.jpg",
+            "orientationOnByDefault": false,
+            "pitch": -12,
+            "yaw": -8,
+            "autoRotateStopDelay": 32,
+            "hfov": 105,
+            "hotSpots": [
+                {
+                    "pitch": -31,
+                    "yaw": 0,
+                    "type": "scene",
+                    "text": "To first scene",
+                    "sceneId": "first"
+                }
+            ]
+        }
+    }
+}
