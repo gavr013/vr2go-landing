@@ -19,7 +19,7 @@
             "hotSpots": [
                 {
                     "pitch": -31,
-                    "yaw": -3,
+                    "yaw": 0,
                     "type": "scene",
                     "text": "Next scene",
                     "sceneId": "second"
@@ -55,7 +55,7 @@
             "fallback": "https://i.imgur.com/Mk4CCpB.jpg",
             "orientationOnByDefault": false,
             "pitch": -12,
-            "yaw": -8,
+            "yaw": -2,
             "autoRotateStopDelay": 32,
             "hfov": 105,
             "hotSpots": [

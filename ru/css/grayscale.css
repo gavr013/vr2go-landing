@@ -154,7 +154,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 90%, #000000 100%), url(../img/Background_Image_Head_up_4.png) no-repeat black center center scroll;
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 90%, #000000 100% /*), url(../img/Background_Image_Head_up_4.png) no-repeat black center center scroll;*/), url(https://i.imgur.com/NfRJrBU.png) no-repeat black center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -178,7 +178,7 @@ a:focus {
 }
 @media (min-width: 768px) {
   .intro {
-    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 90%, #000000 100%), url(../img/Background_Image_Head4.png) no-repeat black center right scroll;
+    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0) 90%, #000000 100% /*), url(../img/Background_Image_Head4.png) no-repeat black center right scroll;*/), url(https://i.imgur.com/o40IihN.png) no-repeat black center right scroll;
     padding: 0;
   }
   .intro .intro-body .brand-heading {
@@ -331,6 +331,16 @@ a:focus {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+iframe {
+  opacity: 0;
+  transition: opacity 0.333s ease-in;
+}
+iframe.lazy-loaded {
+  opacity: 1;
+}
+.holds-the-iframe {
+  background: url(../img/loading-indicator.svg) center center no-repeat;
 }
 #map {
   width: 100%;
